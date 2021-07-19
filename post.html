@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesom CSS -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ResearChime</title>
+  </head>
+  <body>
+        <!-- Nav Section Start -->
+        <header class="header">
+          <div class="">
+            <nav class="nav">
+              <!--logo-->
+              <a class="logo_img" href="index.html">
+                <img width="230px" height="50px" src="images/Logo.png" alt="logo" />
+              </a>
+              <!--toggle icons-->
+              <div class="menu-toggle_bar">
+                <span onclick="openNav()">&#9776;</span>
+              </div>
+    
+              <!-- Menu List -->
+              <ul class="nav_list">
+                <li class="nav_link"><a href="index.html#Home">Home</a></li>
+                <li class="nav_link"><a href="index.html#Services">Services</a></li>
+                <li class="nav_link more_dropdown" id="show1">
+                  <a href="index.html#Team">Team</a>
+                  <ul class="dropdown_list">
+                    <li class="dropdown_link hide1 nav_link d_link" id="hide1">
+                      <a href="index.html#Partners">Partners</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav_link"><a href="products.html">Products</a></li>
+                <li class="more_dropdown nav_active" id="show2">
+                  Academy
+                  <ul class="dropdown_list" id="hide2">
+                    <li class="dropdown_link nav_link d_link">
+                      <a href="covid_19.html">COVID-19 India</a>
+                    </li>
+                    <li class="dropdown_link nav_link d_link">
+                      <a href="research-sos.html">Research SOS</a>
+                    </li>
+                    <li class="dropdown_link nav_link d_link">
+                      <a class="nav_active" href="blog.html">Blog</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav_link"><a href="index.html#Contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="shutter" id="shutter">
+            <div class="menu-toggle_cross" id="menu-toggle_cross">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+            </div>
+            <ul class="shutter_list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#Services">Services</a></li>
+              <li class="barbtn_show1">
+                <a href="index.html#Team"
+                  >Team
+                  <span class="down_angle1">&rsaquo;</span>
+                  <span class="down_angle11">&lsaquo;</span>
+                </a>
+              </li>
+              <div class="barbtn_hide1">
+                <li><a href="index.html#Partners">Partners</a></li>
+              </div>
+              <li><a href="products.html">Products</a></li>
+              <li class="barbtn_show2">
+                <a class="nav_active" href="#"
+                  >Academy
+                  <span class="down_angle2">&rsaquo;</span>
+                  <span class="down_angle22">&lsaquo;</span>
+                </a>
+              </li>
+              <div class="barbtn_hide2">
+                <li><a href="covid_19.html">COVID 19 India</a></li>
+                <li><a href="research-sos.html">Research SOS</a></li>
+                <li><a class="nav_active" href="blog.html">Blog</a></li>
+              </div>
+              <li><a href="index.html#Contact">Contact</a></li>
+            </ul>
+          </div>
+        </header>
+    
+        <!-- Nav Section End -->
+    <!-- Start Content Section -->
+    <section class="post_container">
+      <div class="post_card">
+        <div class="author_info">
+          <div class="author_img">
+            <img src="images/author/1.png" alt="" />
+          </div>
+          <div class="meta_info">
+            <label for="">Srabanti Chakrabarty</label>
+            <label for="">Agu 30,2020</label>
+            <label for="">. 2 min</label>
+            <i class="fas fa-ellipsis-v s_button"></i>
+          </div>
+        </div>
+        <div class="post_content">
+          <h1>this is header line</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
+            laboriosam deleniti, dicta accusamus sed, modi rem explicabo
+            distinctio eos, at quod dignissimos repudiandae ipsam praesentium
+            voluptas dolor. Sint itaque facilis, corporis magni vitae recusandae
+            aliquam ducimus tempore necessitatibus distinctio ex voluptas
+            possimus labore. Magnam, sint vitae ullam aperiam corporis, culpa
+            praesentium laborum iste minima facere voluptatum quidem labore, hic
+            possimus?
+          </p>
+          <img src="images/blog/1.jpg" alt="" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
+            laboriosam deleniti, dicta accusamus sed, modi rem explicabo
+            distinctio eos, at quod dignissimos repudiandae ipsam praesentium
+            voluptas dolor. Sint itaque facilis, corporis magni vitae recusandae
+            aliquam ducimus tempore necessitatibus distinctio ex voluptas
+            possimus labore. Magnam, sint vitae ullam aperiam corporis, culpa
+            praesentium laborum iste minima facere voluptatum quidem labore, hic
+            possimus?
+          </p>
+          <br />
+          <hr />
+          <br />
+          <a class="left_categories" href="">Category name</a>
+          <br />
+          <br />
+          <br />
+          <hr />
+          <br />
+          <div class="button_links">
+            <div class="share_links">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""> <i class="fab fa-linkedin-in"></i></a>
+              <a href=""> <i class="fas fa-link"></i></a>
+            </div>
+            <div class="right_categories">
+              <a href="">Category name</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="rp_header_line">
+      <div class="content">
+        <p>Recent Posts</p>
+        <a href="">See All</a>
+      </div>
+    </div>
+    <section class="recent_post_container">
+      <div class="all_rp_cards">
+        <!-- Carst Start -->
+        <div class="rpcard">
+          <a href="">
+            <div class="rp_card_thumbnail">
+              <img src="images/blog/1.jpg" alt="" />
+            </div>
+            <div class="rp_card_content">
+              <h1>heading Content long upto unknown lne</h1>
+            </div>
+          </a>
+        </div>
+        <!-- Card End -->
+        <!-- Carst Start -->
+        <div class="rpcard">
+          <a href="">
+            <div class="rp_card_thumbnail">
+              <img src="images/blog/1.jpg" alt="" />
+            </div>
+            <div class="rp_card_content">
+              <h1>heading Content long upto unknown lne</h1>
+            </div>
+          </a>
+        </div>
+        <!-- Card End -->
+        <!-- Carst Start -->
+        <div class="rpcard">
+          <a href="">
+            <div class="rp_card_thumbnail">
+              <img src="images/blog/1.jpg" alt="" />
+            </div>
+            <div class="rp_card_content">
+              <h1>heading Content long upto unknown lne</h1>
+            </div>
+          </a>
+        </div>
+        <!-- Card End -->
+      </div>
+    </section>
+
+    <section class="comment_section">
+      <div class="comment_content">
+        <p>Comments</p>
+        <hr />
+      </div>
+    </section>
+    <!-- End Content Section -->
+
+    <!-- Start Scroll Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+    <!-- End Scroll Button -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer">
+        <div class="left">
+          <p>
+            © 2020 Researchime <br />
+            Developed by FiCity
+          </p>
+        </div>
+        <div class="right">
+          <a href="https://www.linkedin.com/in/Shashaanka/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Font Awesom JS -->
+    <script src="js/all.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

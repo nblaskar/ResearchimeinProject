@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesom CSS -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ResearChime</title>
+  </head>
+  <body>
+           <!-- Nav Section Start -->
+           <header class="header">
+            <div class="">
+              <nav class="nav">
+                <!--logo-->
+                <a class="logo_img" href="index.html">
+                  <img width="230px" height="50px" src="images/Logo.png" alt="logo" />
+                </a>
+                <!--toggle icons-->
+                <div class="menu-toggle_bar">
+                  <span onclick="openNav()">&#9776;</span>
+                </div>
+      
+                <!-- Menu List -->
+                <ul class="nav_list">
+                  <li class="nav_link "><a href="index.html#Home">Home</a></li>
+                  <li class="nav_link"><a href="index.html#Services">Services</a></li>
+                  <li class="nav_link more_dropdown" id="show1">
+                    <a href="index.html#Team">Team</a>
+                    <ul class="dropdown_list">
+                      <li class="dropdown_link hide1 nav_link d_link" id="hide1">
+                        <a href="index.html#Partners">Partners</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav_link active"><a href="products.html">Products</a></li>
+                  <li class="more_dropdown" id="show2">
+                    Academy
+                    <ul class="dropdown_list" id="hide2">
+                      <li class="dropdown_link nav_link d_link">
+                        <a href="covid_19.html">COVID-19 India</a>
+                      </li>
+                      <li class="dropdown_link nav_link d_link">
+                        <a href="research-sos.html">Research SOS</a>
+                      </li>
+                      <li class="dropdown_link nav_link d_link">
+                        <a href="blog.html">Blog</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav_link"><a href="index.html#Contact">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="shutter" id="shutter">
+              <div class="menu-toggle_cross" id="menu-toggle_cross">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                  >&times;</a
+                >
+              </div>
+              <ul class="shutter_list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#Services">Services</a></li>
+                <li class="barbtn_show1">
+                  <a href="index.html#Team"
+                    >Team
+                    <span class="down_angle1">&rsaquo;</span>
+                    <span class="down_angle11">&lsaquo;</span>
+                  </a>
+                </li>
+                <div class="barbtn_hide1">
+                  <li><a href="index.html#Partners">Partners</a></li>
+                </div>
+                <li><a class="nav_active" href="products.html">Products</a></li>
+                <li class="barbtn_show2">
+                  <a href="#"
+                    >Academy
+                    <span class="down_angle2">&rsaquo;</span>
+                    <span class="down_angle22">&lsaquo;</span>
+                  </a>
+                </li>
+                <div class="barbtn_hide2">
+                  <li><a href="covid_19.html">COVID 19 India</a></li>
+                  <li><a href="research-sos.html">Research SOS</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                </div>
+                <li><a href="index.html#Contact">Contact</a></li>
+              </ul>
+            </div>
+          </header>
+      
+          <!-- Nav Section End -->
+    <!-- Start Content Section -->
+    <section class="article_container">
+      <div class="article_box">
+        <h1>What is a research paper?</h1>
+        <p>
+          In simple words research papers can be defined as an essay that you
+          write after thorough and in-depth research is done on the topic that
+          you chose. But a research paper is much more than just an essay where
+          you collect your information, cite your sources. Here you can analyze
+          a point or argue a point. Irrespective of what you write, your
+          research paper should be your own thinking backed up by others’ ideas
+          and information.
+        </p>
+        <h1>What are the points to keep in mind?</h1>
+        <p>
+          Your topic should focus on a central issue that you are interested in.
+          Limit the topics you cover according to the requirements of your
+          paper. State your main points in your own words and back them up with
+          proper sources and citations. Incorporate details by paraphrasing
+          ideas and words from your sources, leave out the unnecessary details,
+          and use different words and sentences. Use quotations when the
+          author's words are especially well-chosen or memorable. When you quote
+          even a short phrase, copy the exact words, enclose them in quotation
+          marks, and cite the name of the author or speaker. Anything that is
+          not a piece of common knowledge should be cited with the name of the
+          author or speaker.
+        </p>
+        <img src="images/what is research paper.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- End Content Section -->
+
+    <!-- Start Scroll Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+    <!-- End Scroll Button -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer">
+        <div class="left">
+          <p>
+            © 2020 Researchime <br />
+            Developed by FiCity
+          </p>
+        </div>
+        <div class="right">
+          <a href="https://www.linkedin.com/in/Shashaanka/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Font Awesom JS -->
+    <script src="js/all.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
